@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-poppins;
+}
+
+.btn {
+  @apply hover:opacity-80 active:scale-95 transition border-none;
+}
+
+.input {
+  @apply bg-transparent border-0 outline-none placeholder:text-[#0000009f] placeholder:text-lg dark:placeholder:text-slate-500 placeholder:text-slate-500;
+}
+
+textarea {
+  @apply placeholder:text-[#0000009f] placeholder:text-lg  placeholder:text-slate-500 dark:placeholder:text-slate-500;
+}
